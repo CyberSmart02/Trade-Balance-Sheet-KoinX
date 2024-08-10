@@ -76,7 +76,6 @@ This is a Node.js application that processes cryptocurrency trade data from a CS
   - `index.html` - Frontend HTML file.
   - `styles.css` - CSS for styling.
   - `script.js` - JavaScript for handling form submissions.
-- `uploads/` - Directory where uploaded files are temporarily stored.
 
 ## Notes
 
