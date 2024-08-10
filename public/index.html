@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crypto Trade Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Trade Dashboard</h1>
+        
+        <div id="uploadFormContainer">
+            <h2>Upload CSV File</h2>
+            <form id="uploadForm">
+                <input type="file" id="file" accept=".csv">
+                <button type="submit">Upload</button>
+            </form>
+        </div>
+
+        <div id="balanceFormContainer">
+            <h2>Check Balance at Timestamp</h2>
+            <form id="balanceForm">
+                <input type="text" id="timestamp" placeholder="YYYY-MM-DD HH:MM:SS" required>
+                <button type="submit">Check Balance</button>
+            </form>
+        </div>
+
+        <div id="result"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

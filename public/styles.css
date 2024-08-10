@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#uploadFormContainer, #balanceFormContainer {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+input[type="file"], input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade of Bootstrap primary color */
+}
+
+#result {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #e9ecef;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#result ul {
+    list-style: none;
+    padding: 0;
+}
+
+#result li {
+    background-color: #007bff; /* Same as button background */
+    color: white;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #0056b3; /* Darker shade for contrast */
+}
